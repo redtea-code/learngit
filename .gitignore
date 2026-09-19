@@ -1,0 +1,10 @@
+# Machine-local skill state and generated files
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.log
+
+# Generated validation reports contain absolute local paths
+**/validation/

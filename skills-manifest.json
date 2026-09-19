@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-19T07:41:54.2349841Z",
+  "source": "~/.codex/skills",
+  "excluded": [
+    ".system",
+    "~/.agents/skills",
+    "__pycache__",
+    "*.pyc",
+    "*.pyo",
+    "*.log",
+    "**/validation/",
+    ".env"
+  ],
+  "skills": [
+    {
+      "directory": "academic-poster-builder",
+      "skill_name": "academic-poster-builder",
+      "file_count": 3,
+      "bytes": 13357.0
+    },
+    {
+      "directory": "dataflow-model-explainer",
+      "skill_name": "dataflow-model-explainer",
+      "file_count": 2,
+      "bytes": 7773.0
+    },
+    {
+      "directory": "experiment-plan",
+      "skill_name": "experiment-plan",
+      "file_count": 2,
+      "bytes": 11212.0
+    },
+    {
+      "directory": "experiment-submap-builder",
+      "skill_name": "experiment-submap-builder",
+      "file_count": 2,
+      "bytes": 10604.0
+    },
+    {
+      "directory": "idea_spark",
+      "skill_name": "idea-spark",
+      "file_count": 104,
+      "bytes": 1433346.0
+    },
+    {
+      "directory": "local-gpt-image2",
+      "skill_name": "local-gpt-image2",
+      "file_count": 3,
+      "bytes": 7523.0
+    },
+    {
+      "directory": "optimization-reading-group",
+      "skill_name": "optimization-reading-group",
+      "file_count": 1,
+      "bytes": 7107.0
+    },
+    {
+      "directory": "paper_search",
+      "skill_name": "paper-search",
+      "file_count": 16,
+      "bytes": 106975.0
+    },
+    {
+      "directory": "paper-poster-imagegen",
+      "skill_name": "paper-poster-imagegen",
+      "file_count": 3,
+      "bytes": 10555.0
+    },
+    {
+      "directory": "paper2assets",
+      "skill_name": "paper2assets",
+      "file_count": 14,
+      "bytes": 339096.0
+    },
+    {
+      "directory": "paper2blog",
+      "skill_name": "paper2blog",
+      "file_count": 13,
+      "bytes": 160417.0
+    },
+    {
+      "directory": "paper2poster",
+      "skill_name": "paper2poster",
+      "file_count": 125,
+      "bytes": 8669526.0
+    },
+    {
+      "directory": "paper2poster-poster",
+      "skill_name": "paper2poster-poster",
+      "file_count": 6,
+      "bytes": 11408.0
+    },
+    {
+      "directory": "paper2reel",
+      "skill_name": "paper2reel",
+      "file_count": 10,
+      "bytes": 381225.0
+    },
+    {
+      "directory": "paper2video",
+      "skill_name": "paper2video",
+      "file_count": 7,
+      "bytes": 108519.0
+    },
+    {
+      "directory": "ppt-master",
+      "skill_name": "ppt-master",
+      "file_count": 12939,
+      "bytes": 79489227.0
+    },
+    {
+      "directory": "scoop_check",
+      "skill_name": "scoop-check",
+      "file_count": 2,
+      "bytes": 24628.0
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "实验计划"
+  short_description: "构建可执行、可审计的研究实验计划与变体数据流"
+  default_prompt: "使用 $experiment-plan 编写一个实现可追踪、包含数据流和结果判定规则的研究实验计划。"
+
+policy:
+  allow_implicit_invocation: true

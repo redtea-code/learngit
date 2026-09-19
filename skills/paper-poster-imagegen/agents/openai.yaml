@@ -1,0 +1,4 @@
+interface:
+  display_name: "Paper Poster ImageGen"
+  short_description: "Prompt image models for paper poster mockups."
+  default_prompt: "Generate a high-fidelity reference image for an A0 academic poster from a paper, figures, and design requirements."

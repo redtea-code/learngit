@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Poster Builder"
+  short_description: "Build A0 academic posters from papers."
+  default_prompt: "Create or refine an ACL-style A0 portrait poster from a paper, reference design, and local assets."
