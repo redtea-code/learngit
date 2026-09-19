@@ -42,19 +42,21 @@ target_root="$destination/skills"
 mkdir -p "$target_root"
 
 if ((${#skills[@]} == 0)); then
-  mapfile -t skills < <(find "$skills_root" -mindepth 1 -maxdepth 1 -type d -printf '%f\n' | sort)
+  while IFS= read -r skill_name; do
+    skills+=("$skill_name")
+  done < <(find "$skills_root" -mindepth 1 -maxdepth 1 -type d -print | sed 's#^.*/##' | sort)
 fi
 
 for skill in "${skills[@]}"; do
-  source="$skills_root/$skill"
+  skill_source="$skills_root/$skill"
   target="$target_root/$skill"
-  [[ -d "$source" ]] || { printf 'Unknown skill: %s\n' "$skill" >&2; exit 1; }
+  [[ -d "$skill_source" ]] || { printf 'Unknown skill: %s\n' "$skill" >&2; exit 1; }
   if [[ -e "$target" && $force -eq 0 ]]; then
     printf 'Destination already exists: %s (use --force to replace it)\n' "$target" >&2
     exit 1
   fi
   rm -rf "$target"
-  cp -a "$source" "$target"
+  cp -a "$skill_source" "$target"
   printf 'Installed %s -> %s\n' "$skill" "$target"
 done
 
